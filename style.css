@@ -1,0 +1,72 @@
+
+.content {
+    display: flex; 
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text-content {
+    padding: 10px;
+    color: #AB9F82;
+	font: 13pt georgia, sans-serif;
+}
+
+body {	
+    background-color: #1C0202;
+	}
+
+header, h1, h2{
+    color: #AB9F82;
+	font: 30pt georgia, sans-serif;
+	margin: 0px; padding: 0px;
+}
+
+header p {
+    color: #AB9F82;
+	font: 15pt georgia, sans-serif;
+	margin: 0px; padding: 0px;
+}
+
+#sidebar {
+    width: 14%;
+    height: 100vh;
+    background-color: #042F12;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.club-image {
+    width: 300px;
+    height: auto;
+}
+
+.sidebar-link {
+    color: #AB9F82;
+}
+
+.link {
+    color: #AB9F82
+}
+
+table {
+    font: italic normal 1.4em georgia, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    font-size: 15px;
+  }
+  
+  td, th {
+    border: 1px solid #3B0505;
+    text-align: left;
+    padding: 4px;
+    height: 20px;
+    width: 10px;
+    background-color: #AB9F82;
+  }
+
+  a:hover {
+    background-color: #D5AB48;
+  }
